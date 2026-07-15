@@ -22,7 +22,7 @@ FFDEC_VERSION="26.2.1"
 
 echo "checking if ffdec_lib is already installed in local repo..."
 
-if [ -f "$LOCAL_REPO/com/jpexs/ffdec_lib/${FFDEC_VERSION}/ffdec_lib-${FFDEC_VERSION}.jar" ]; then
+if [ -f "$(pwd)/lib/com/jpexs/ffdec_lib/${FFDEC_VERSION}/ffdec_lib-${FFDEC_VERSION}.jar" ]; then
     echo "ffdec_lib is already installed, skipping..."
 else
     echo "ffdec_lib not found, downloading..."
