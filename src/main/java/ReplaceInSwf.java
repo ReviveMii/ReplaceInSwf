@@ -86,6 +86,7 @@ public class ReplaceInSwf {
         }
         System.out.println("remaining \"" + search + "\" in " + outputFile + ": " + remaining[0]);
         System.out.println("replacing was SUCCESSFUL!");
+        System.exit(0);
 
     }
 
